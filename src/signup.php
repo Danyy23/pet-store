@@ -15,7 +15,8 @@
       where email = '$email'
       and status = true
    ";
-   $ans = pg_query($conn, $sql_validate_email);
+   
+   $ans = pg_query ($conn,$sql_validate_email);
 
    if($ans){
 
