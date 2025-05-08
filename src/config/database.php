@@ -1,4 +1,5 @@
 <?php
+// supabase DB conection
   /*  
     $host        ="aws-0-us-east-1.pooler.supabase.com";
     $port        ="6543";
@@ -7,6 +8,7 @@
     $password    ="unicesmag@@";
 */
 
+ //local DB connection
     $host        ="localhost";
     $port        ="5432";
     $dbname      ="petstore";
